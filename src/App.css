@@ -1,0 +1,284 @@
+.app {
+  display: flex;
+  height: 150vh;
+  flex-direction: column;
+  background-color: #313131;
+}
+
+.header {
+  padding: 15px;
+  text-align: center;
+}
+
+.header-text {
+  color: #f2f2f2;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.left-panel {
+  flex: 1;
+  padding: 10px;
+}
+
+.player-name {
+  display: flex;
+  align-items: center;
+}
+
+.players-table-wrappper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.player-name .player-status {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: #d6d6d6;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.player-name .sold {
+  background-color: #59e357;
+}
+
+.player-name .unsold {
+  background-color: #e35757;
+}
+
+.right-panel {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.right-panel-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.column-section-1 {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.player-card-background {
+  font-family: 'Big Shoulders Text', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 350px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px #000000;
+  clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  position: relative;
+}
+
+.player-sold-img {
+  top: 20px;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.player-unsold-img {
+  top: 20px;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.player-card-info {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-card-info img {
+  height: 150px;
+  width: 150px;
+}
+
+.player-card-rating {
+  width: 50px;
+  height: 100px;
+}
+
+.player-card-rating div {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.player-card-name {
+  text-align: center;
+}
+
+.player-card-horizontal-line {
+  margin: 5px 10px;
+  width: auto;
+  height: 2px;
+  border-top: 3px solid rgba(80, 78, 78, 0.5);
+  transform: matrix(-1, 0.01, -0.01, -1, 0, 0);
+}
+
+.player-card-vertical-line {
+  margin: 5px 10px;
+  width: 1px;
+  height: 110px;
+  border-left: 3px solid rgba(80, 78, 78, 0.5);
+  transform: matrix(-1, 0.01, -0.01, -1, 0, 0);
+}
+
+.player-card-stats-container {
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.player-card-stats-section {
+  display: flex;
+}
+
+.player-card-stats-section div {
+  margin: 0px 10px;
+}
+
+.column-section-2 {
+  display: flex;
+  flex: 3;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.player-auction-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-auction-price {
+  padding-left: 15px;
+  margin-bottom: 25px;
+  color: #f2f2f2;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  box-shadow: 4px 4px 4px #000000;
+}
+
+.player-auction-franchise-details {
+  flex: 2;
+  display: flex;
+}
+
+.franchise-bid-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.franchise-bid-wrapper {
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background: #403F3F;
+  box-shadow: 4px 4px 4px #000000;
+  border-radius: 18px;
+  color: #FFFFFF;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.franchise-bid-wrapper button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 72px;
+  height: 70px;
+  right: -10px;
+  top: -10px;
+  border: 1px solid #000000;
+  border-radius: 23px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 4px 4px 4px #000000;
+  cursor: pointer;
+}
+
+.column-section-3 {
+  display: flex;
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-auction-timer {
+  box-shadow: 4px 4px 4px #000000;
+}
+
+.player-auction-pending-time {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.franchise-players-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.auction-button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 120px;
+  height: 70px;
+  border: 1px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 4px 4px 4px #000000;
+  cursor: pointer;
+  background: linear-gradient(131.47deg, #8743fd, 6.7%, #8743fd 6.71%, #ffffff 53.86%, #8743fd 95.58%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 4px 4px 4px #000000;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: linear-gradient(131.47deg, rgb(135 67 253), 6.7%, rgb(135 67 253) 6.71%, rgb(255 255 255) 53.86%, rgb(135 67 253) 95.58%);
+}
+
+td {
+  background-color: "#403F3F";
+  color: #f2f2f2;
+}

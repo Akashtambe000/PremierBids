@@ -1,0 +1,1099 @@
+{
+  "totalPlayersInAuction": 21,
+  "franchise": [
+    {
+      "id": "01f8eb43-04bf-4dcb-aeea-d2c41aec0a76",
+      "name": "Panda FC",
+      "ownerId": "183ccf2b-f3f4-43f3-be4d-89ab5e9966c7",
+      "color": "#008999",
+      "colorGradientButton": "#b6f8ff",
+      "purseBalance": 1500,
+      "players": [
+        "183ccf2b-f3f4-43f3-be4d-89ab5e9966c7"
+      ],
+      "minPlayers": 8,
+      "maxPlayers": 8
+    },
+    {
+      "id": "6387add4-4105-40db-bfce-ad2621c5f58a",
+      "name": "Akash FC",
+      "ownerId": "ebca8651-ed77-4072-96b0-8626a6a19f9f",
+      "color": "#eb1414",
+      "colorGradientButton": "#fc998d",
+      "purseBalance": 1500,
+      "players": [
+        "ebca8651-ed77-4072-96b0-8626a6a19f9f"
+      ],
+      "minPlayers": 8,
+      "maxPlayers": 8
+    },
+    {
+      "id": "8fa22cf0-c355-4b2a-9b20-0f6ccb42750d",
+      "name": "Sahil FC",
+      "ownerId": "9672af1b-4dbe-47bb-8f6e-f6adfa6a31d4",
+      "color": "#c99e00",
+      "colorGradientButton": "#fde783",
+      "purseBalance": 1500,
+      "players": [
+        "9672af1b-4dbe-47bb-8f6e-f6adfa6a31d4"
+      ],
+      "minPlayers": 8,
+      "maxPlayers": 8
+    }
+  ],
+  "players": [
+    {
+      "id": "183ccf2b-f3f4-43f3-be4d-89ab5e9966c7",
+      "name": "Panda",
+      "basePrice": 0,
+      "sellPrice": 0,
+      "isOwner": "true",
+      "status": "sold",
+      "franchiseId": "01f8eb43-04bf-4dcb-aeea-d2c41aec0a76",
+      "stats": {
+        "Position": "GK",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 52
+          },
+          {
+            "skill": "GK",
+            "value": 90
+          },
+          {
+            "skill": "THR",
+            "value": 91
+          },
+          {
+            "skill": "DEF",
+            "value": 90
+          },
+          {
+            "skill": "PHY",
+            "value": 93
+          },
+          {
+            "skill": "DRI",
+            "value": 55
+          }
+        ],
+        "OVERALL": 91
+      }
+    },
+    {
+      "id": "ebca8651-ed77-4072-96b0-8626a6a19f9f",
+      "name": "Akash",
+      "basePrice": 0,
+      "sellPrice": 0,
+      "isOwner": "true",
+      "status": "sold",
+      "franchiseId": "6387add4-4105-40db-bfce-ad2621c5f58a",
+      "stats": {
+        "Position": "RB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 81
+          },
+          {
+            "skill": "SHO",
+            "value": 75
+          },
+          {
+            "skill": "PAS",
+            "value": 67
+          },
+          {
+            "skill": "DEF",
+            "value": 88
+          },
+          {
+            "skill": "PHY",
+            "value": 85
+          },
+          {
+            "skill": "DRI",
+            "value": 69
+          }
+        ],
+        "OVERALL": 85
+      }
+    },
+    {
+      "id": "9672af1b-4dbe-47bb-8f6e-f6adfa6a31d4",
+      "name": "Sahil",
+      "basePrice": 0,
+      "sellPrice": 0,
+      "isOwner": "true",
+      "status": "sold",
+      "franchiseId": "8fa22cf0-c355-4b2a-9b20-0f6ccb42750d",
+      "stats": {
+        "Position": "CB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 58
+          },
+          {
+            "skill": "SHO",
+            "value": 69
+          },
+          {
+            "skill": "PAS",
+            "value": 82
+          },
+          {
+            "skill": "DEF",
+            "value": 87
+          },
+          {
+            "skill": "PHY",
+            "value": 86
+          },
+          {
+            "skill": "DRI",
+            "value": 77
+          }
+        ],
+        "OVERALL": 85
+      }
+    },
+    {
+      "id": "8b395589-006b-47f8-97cf-c7535f488878",
+      "name": "Rahul",
+      "basePrice": 50,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "RW",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 82
+          },
+          {
+            "skill": "SHO",
+            "value": 76
+          },
+          {
+            "skill": "PAS",
+            "value": 56
+          },
+          {
+            "skill": "DEF",
+            "value": 74
+          },
+          {
+            "skill": "PHY",
+            "value": 86
+          },
+          {
+            "skill": "DRI",
+            "value": 86
+          }
+        ],
+        "OVERALL": 85
+      }
+    },
+    {
+      "id": "14b1c114-97ee-4771-87bc-f757fce3c322",
+      "name": "Yellow",
+      "basePrice": 100,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 95
+          },
+          {
+            "skill": "SHO",
+            "value": 84
+          },
+          {
+            "skill": "PAS",
+            "value": 76
+          },
+          {
+            "skill": "DEF",
+            "value": 90
+          },
+          {
+            "skill": "PHY",
+            "value": 63
+          },
+          {
+            "skill": "DRI",
+            "value": 70
+          }
+        ],
+        "OVERALL": 90
+      }
+    },
+    {
+      "id": "d81c0557-80dd-4e25-a021-b25d22558551",
+      "name": "Vicky",
+      "basePrice": 100,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CF",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 91
+          },
+          {
+            "skill": "SHO",
+            "value": 90
+          },
+          {
+            "skill": "PAS",
+            "value": 80
+          },
+          {
+            "skill": "DEF",
+            "value": 78
+          },
+          {
+            "skill": "PHY",
+            "value": 60
+          },
+          {
+            "skill": "DRI",
+            "value": 94
+          }
+        ],
+        "OVERALL": 92
+      }
+    },
+    {
+      "id": "9fd625ba-78fa-4655-a081-763a4c30ce53",
+      "name": "Baba",
+      "basePrice": 100,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "LW",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 80
+          },
+          {
+            "skill": "SHO",
+            "value": 92
+          },
+          {
+            "skill": "PAS",
+            "value": 90
+          },
+          {
+            "skill": "DEF",
+            "value": 64
+          },
+          {
+            "skill": "PHY",
+            "value": 73
+          },
+          {
+            "skill": "DRI",
+            "value": 89
+          }
+        ],
+        "OVERALL": 91
+      }
+    },
+    {
+      "id": "9e7262bb-e2ec-4f4b-99f0-aa9a15c4caf1",
+      "name": "Sai",
+      "basePrice": 100,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "RW",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 76
+          },
+          {
+            "skill": "SHO",
+            "value": 93
+          },
+          {
+            "skill": "PAS",
+            "value": 87
+          },
+          {
+            "skill": "DEF",
+            "value": 60
+          },
+          {
+            "skill": "PHY",
+            "value": 80
+          },
+          {
+            "skill": "DRI",
+            "value": 92
+          }
+        ],
+        "OVERALL": 91
+      }
+    },
+    {
+      "id": "0d284fa7-7476-4ece-83cf-d986e9ba6406",
+      "name": "Prem",
+      "basePrice": 70,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 85
+          },
+          {
+            "skill": "SHO",
+            "value": 78
+          },
+          {
+            "skill": "PAS",
+            "value": 88
+          },
+          {
+            "skill": "DEF",
+            "value": 75
+          },
+          {
+            "skill": "PHY",
+            "value": 70
+          },
+          {
+            "skill": "DRI",
+            "value": 83
+          }
+        ],
+        "OVERALL": 86
+      }
+    },
+    {
+      "id": "93e92ef8-f115-4538-9695-7e6ebdfdacc5",
+      "name": "Rehan",
+      "basePrice": 70,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 72
+          },
+          {
+            "skill": "SHO",
+            "value": 76
+          },
+          {
+            "skill": "PAS",
+            "value": 88
+          },
+          {
+            "skill": "DEF",
+            "value": 82
+          },
+          {
+            "skill": "PHY",
+            "value": 75
+          },
+          {
+            "skill": "DRI",
+            "value": 86
+          }
+        ],
+        "OVERALL": 86
+      }
+    },
+    {
+      "id": "ccafab3b-60b0-4a3e-8a91-75b2bb755ec2",
+      "name": "Adwait",
+      "basePrice": 70,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "LW",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 70
+          },
+          {
+            "skill": "SHO",
+            "value": 86
+          },
+          {
+            "skill": "PAS",
+            "value": 90
+          },
+          {
+            "skill": "DEF",
+            "value": 73
+          },
+          {
+            "skill": "PHY",
+            "value": 72
+          },
+          {
+            "skill": "DRI",
+            "value": 88
+          }
+        ],
+        "OVERALL": 88
+      }
+    },
+    {
+      "id": "a6d93524-6f39-4013-9aac-d77f0f31df6e",
+      "name": "Pratik",
+      "basePrice": 50,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 70
+          },
+          {
+            "skill": "SHO",
+            "value": 86
+          },
+          {
+            "skill": "PAS",
+            "value": 83
+          },
+          {
+            "skill": "DEF",
+            "value": 83
+          },
+          {
+            "skill": "PHY",
+            "value": 68
+          },
+          {
+            "skill": "DRI",
+            "value": 71
+          }
+        ],
+        "OVERALL": 84
+      }
+    },
+    {
+      "id": "92fe2a4f-9653-481c-90a5-37054b0900df",
+      "name": "Sagar",
+      "basePrice": 70,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "GK",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 68
+          },
+          {
+            "skill": "GK",
+            "value": 92
+          },
+          {
+            "skill": "THR",
+            "value": 88
+          },
+          {
+            "skill": "DEF",
+            "value": 87
+          },
+          {
+            "skill": "PHY",
+            "value": 66
+          },
+          {
+            "skill": "DRI",
+            "value": 68
+          }
+        ],
+        "OVERALL": 89
+      }
+    },
+    {
+      "id": "9a85710f-055f-47e0-9e4b-076ec385038f",
+      "name": "Jeenay",
+      "basePrice": 50,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 58
+          },
+          {
+            "skill": "SHO",
+            "value": 78
+          },
+          {
+            "skill": "PAS",
+            "value": 63
+          },
+          {
+            "skill": "DEF",
+            "value": 85
+          },
+          {
+            "skill": "PHY",
+            "value": 88
+          },
+          {
+            "skill": "DRI",
+            "value": 69
+          }
+        ],
+        "OVERALL": 84
+      }
+    },
+    {
+      "id": "dd334e27-9ebb-4a5a-862a-6f9ea265137b",
+      "name": "Sakeb",
+      "basePrice": 50,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 75
+          },
+          {
+            "skill": "SHO",
+            "value": 84
+          },
+          {
+            "skill": "PAS",
+            "value": 67
+          },
+          {
+            "skill": "DEF",
+            "value": 81
+          },
+          {
+            "skill": "PHY",
+            "value": 62
+          },
+          {
+            "skill": "DRI",
+            "value": 76
+          }
+        ],
+        "OVERALL": 84
+      }
+    },
+    {
+      "id": "cf99af60-09d2-40e8-b113-079df2fda521",
+      "name": "Tejas",
+      "basePrice": 70,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 87
+          },
+          {
+            "skill": "SHO",
+            "value": 89
+          },
+          {
+            "skill": "PAS",
+            "value": 86
+          },
+          {
+            "skill": "DEF",
+            "value": 64
+          },
+          {
+            "skill": "PHY",
+            "value": 68
+          },
+          {
+            "skill": "DRI",
+            "value": 79
+          }
+        ],
+        "OVERALL": 88
+      }
+    },
+    {
+      "id": "838c0d1e-c790-462a-a015-fb3c8c36bed3",
+      "name": "Dipak",
+      "basePrice": 30,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 75
+          },
+          {
+            "skill": "SHO",
+            "value": 62
+          },
+          {
+            "skill": "PAS",
+            "value": 64
+          },
+          {
+            "skill": "DEF",
+            "value": 85
+          },
+          {
+            "skill": "PHY",
+            "value": 84
+          },
+          {
+            "skill": "DRI",
+            "value": 65
+          }
+        ],
+        "OVERALL": 82
+      }
+    },
+    {
+      "id": "cf1099dd-f7c7-48e1-a818-1b4cbe4df9f0",
+      "name": "Omkar",
+      "basePrice": 30,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 65
+          },
+          {
+            "skill": "SHO",
+            "value": 60
+          },
+          {
+            "skill": "PAS",
+            "value": 74
+          },
+          {
+            "skill": "DEF",
+            "value": 85
+          },
+          {
+            "skill": "PHY",
+            "value": 85
+          },
+          {
+            "skill": "DRI",
+            "value": 69
+          }
+        ],
+        "OVERALL": 82
+      }
+    },
+    {
+      "id": "694ff07e-f5f3-409d-bdcd-0486f5d7d82a",
+      "name": "Sajal",
+      "basePrice": 30,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 70
+          },
+          {
+            "skill": "SHO",
+            "value": 82
+          },
+          {
+            "skill": "PAS",
+            "value": 66
+          },
+          {
+            "skill": "DEF",
+            "value": 69
+          },
+          {
+            "skill": "PHY",
+            "value": 87
+          },
+          {
+            "skill": "DRI",
+            "value": 79
+          }
+        ],
+        "OVERALL": 83
+      }
+    },
+    {
+      "id": "83dbf0ab-6384-4b9e-a2ed-a20b79ebd813",
+      "name": "Akkya",
+      "basePrice": 30,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CF",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 65
+          },
+          {
+            "skill": "SHO",
+            "value": 84
+          },
+          {
+            "skill": "PAS",
+            "value": 78
+          },
+          {
+            "skill": "DEF",
+            "value": 62
+          },
+          {
+            "skill": "PHY",
+            "value": 83
+          },
+          {
+            "skill": "DRI",
+            "value": 85
+          }
+        ],
+        "OVERALL": 84
+      }
+    },
+    {
+      "id": "09b19224-9692-44dc-8078-c93417f64c58",
+      "name": "Tambade",
+      "basePrice": 30,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 88
+          },
+          {
+            "skill": "SHO",
+            "value": 68
+          },
+          {
+            "skill": "PAS",
+            "value": 82
+          },
+          {
+            "skill": "DEF",
+            "value": 82
+          },
+          {
+            "skill": "PHY",
+            "value": 67
+          },
+          {
+            "skill": "DRI",
+            "value": 65
+          }
+        ],
+        "OVERALL": 83
+      }
+    },
+    {
+      "id": "011365ca-1b9b-4615-ad07-1fd4d29acbbb",
+      "name": "Poppy",
+      "basePrice": 70,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "RW",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 89
+          },
+          {
+            "skill": "SHO",
+            "value": 82
+          },
+          {
+            "skill": "PAS",
+            "value": 88
+          },
+          {
+            "skill": "DEF",
+            "value": 58
+          },
+          {
+            "skill": "PHY",
+            "value": 67
+          },
+          {
+            "skill": "DRI",
+            "value": 87
+          }
+        ],
+        "OVERALL": 88
+      }
+    },
+    {
+      "id": "e4670d8b-9545-4ddb-93a7-3c117a50aba6",
+      "name": "Amar",
+      "basePrice": 30,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 52
+          },
+          {
+            "skill": "SHO",
+            "value": 60
+          },
+          {
+            "skill": "PAS",
+            "value": 70
+          },
+          {
+            "skill": "DEF",
+            "value": 85
+          },
+          {
+            "skill": "PHY",
+            "value": 89
+          },
+          {
+            "skill": "DRI",
+            "value": 60
+          }
+        ],
+        "OVERALL": 82
+      }
+    },
+    {
+      "id": "b1d55339-67fb-4d04-a84c-e2fc2b24f10f",
+      "name": "Srikant",
+      "basePrice": 70,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "GK",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 79
+          },
+          {
+            "skill": "GK",
+            "value": 91
+          },
+          {
+            "skill": "THR",
+            "value": 65
+          },
+          {
+            "skill": "DEF",
+            "value": 90
+          },
+          {
+            "skill": "PHY",
+            "value": 91
+          },
+          {
+            "skill": "DRI",
+            "value": 58
+          }
+        ],
+        "OVERALL": 91
+      }
+    },
+    {
+      "id": "ce390010-da63-45f2-bca9-300972674c1a",
+      "name": "Vaibhav",
+      "basePrice": 100,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CF",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 80
+          },
+          {
+            "skill": "SHO",
+            "value": 92
+          },
+          {
+            "skill": "PAS",
+            "value": 86
+          },
+          {
+            "skill": "DEF",
+            "value": 64
+          },
+          {
+            "skill": "PHY",
+            "value": 60
+          },
+          {
+            "skill": "DRI",
+            "value": 92
+          }
+        ],
+        "OVERALL": 90
+      }
+    },
+    {
+      "id": "78b83e9b-e37f-4f2b-8fe9-07fa379ed362",
+      "name": "Nikhil",
+      "basePrice": 30,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CB",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 52
+          },
+          {
+            "skill": "SHO",
+            "value": 60
+          },
+          {
+            "skill": "PAS",
+            "value": 75
+          },
+          {
+            "skill": "DEF",
+            "value": 86
+          },
+          {
+            "skill": "PHY",
+            "value": 83
+          },
+          {
+            "skill": "DRI",
+            "value": 60
+          }
+        ],
+        "OVERALL": 82
+      }
+    },
+    {
+      "id": "05d1c70b-c85c-4ada-a51b-6479f73f186a",
+      "name": "Aman",
+      "basePrice": 50,
+      "sellPrice": 0,
+      "isOwner": "false",
+      "status": "",
+      "franchiseId": "",
+      "stats": {
+        "Position": "CM",
+        "stats": [
+          {
+            "skill": "PAC",
+            "value": 84
+          },
+          {
+            "skill": "SHO",
+            "value": 82
+          },
+          {
+            "skill": "PAS",
+            "value": 71
+          },
+          {
+            "skill": "DEF",
+            "value": 86
+          },
+          {
+            "skill": "PHY",
+            "value": 69
+          },
+          {
+            "skill": "DRI",
+            "value": 73
+          }
+        ],
+        "OVERALL": 84
+      }
+    }
+  ]
+}
